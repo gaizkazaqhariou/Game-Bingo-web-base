@@ -1,0 +1,74 @@
+<html>
+
+<head>
+<title>B I N G O</title>
+
+<link rel="stylesheet" type="text/css" href="bingocss.css" />
+
+<script type="text/javascript" src="scripts/bingojs.js"></script>
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+
+</head>
+
+<body onload="newCard()">
+
+	<div id="container">
+
+	<div id="content">
+		<table id="bingotable">
+			<tr>
+				<th class="orange">B</th>
+				<th class="orange">I</th>
+				<th class="orange">N</th>
+				<th class="orange">G</th>
+				<th class="orange">O</th>
+			</tr>
+			<tr>
+				<td class="kotak" id="p0" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p1" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p2" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p3" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p4" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td class="kotak" id="p5" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p6" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p7" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p8" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p9" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td class="kotak" id="p10" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p11" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p12" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p13" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p14" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td class="kotak" id="p15" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p16" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p17" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p18" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p19" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td class="kotak" id="p20" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p21" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p22" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p23" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+				<td class="kotak" id="p24" amOn="false" onclick="changeMe(this)"> &nbsp;</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="reset" onclick="anotherCard()">
+		<a >Reset</a>
+	</div>
+	<br>
+	<div id="win" onclick="bingo()">
+		<a >Bingo</a>
+	</div>
+
+</body>
+
+</html>

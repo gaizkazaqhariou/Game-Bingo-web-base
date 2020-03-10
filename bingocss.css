@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: cyan;
+}
+
+h1, p {
+  font-family: 'arial', sans-serif; font-size: 20pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+p a {
+  text-decoration: none;
+  color: #f1c40f;
+}
+
+#win {
+  color: blue;
+  margin: 0 auto;
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  text-align: center;
+  border: 3px solid gray;
+}
+
+#reset {
+  color: blue;
+  margin: 0 auto;
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  text-align: center;
+  border: 3px solid gray;
+}
+
+#bingotable {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  font-family: Helvetica;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+  width: 20%;
+}
+
+.orange {
+  background: orange;
+}
